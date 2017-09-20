@@ -8,7 +8,7 @@ WordPress の管理画面（ダッシュボード）の操作方法をメイン�
 下記の章立てに沿って作成していますが、この内容についても過不足指摘あればプルリクエストもしくはissueをお願いします。
 
 一旦フォークしたリポジトリについて、新たに作業を再開するときは、本体リポジトリの最新の状態をフォークしたリポジトリにも反映してから作業する必要があります。方法についてはコチラをご覧ください。
-https://github.com/wckansai2016/wordpress-document/wiki
+https://github.com/jawordpressorg/user-manual/wiki
 
 ## 章立て
 
@@ -60,7 +60,7 @@ Github アカウントをお持ちでなければ作成します。
 
 ## 自分のリポジトリへのフォーク
 
-Githubにログイン後、[WordPressドキュメント](https://github.com/wckansai2016/wordpress-document)を開き、右上の「Fork」をクリックします。
+Githubにログイン後、[WordPressドキュメント](https://github.com/jawordpressorg/user-manual)を開き、右上の「Fork」をクリックします。
 
 ## ローカルへのダウンロード(git clone)
 
@@ -83,7 +83,7 @@ Githubにログイン後、[WordPressドキュメント](https://github.com/wcka
 1. おなじく Jekyll がなければインストールしておく。コマンドは `gem install jekyll`
 1. ローカルリポジトリのある場所まで移動
 1. `jekyll serve -w` を実行
-1. 出力メッセージ内 `Server address:` 以下に記載のアドレスにアクセス。たとえば `http://127.0.0.1:4000/wordpress-document/`
+1. 出力メッセージ内 `Server address:` 以下に記載のアドレスにアクセス。たとえば `http://127.0.0.1:4000/user-manual/`
 1. 実際の GitHub ページと同じであることをたしかめて、`_layouts` ディレクトリ以下のテンプレートを編集します。
 
 ## 時間がないときの編集・確認方法
